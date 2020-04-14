@@ -1,0 +1,30 @@
+{
+    "commands": [
+        {
+            "command": {
+                "commandName": [],
+                "userLevel": "",
+                "commandType": "",
+                "msgs": {
+                    "randomize": false,
+                    "replies": []
+                },
+                "gcd": 0,
+                "ucd": 0,
+                "users": [
+                    {
+                        "username": "",
+                        "useTime": "2020-02-16T00:10:41.082Z"
+                    }
+                ],
+                "lastRedeemedTime": "2020-02-16T00:10:41.082Z",
+                "counters": [
+                    {
+                        "name": "",
+                        "count": 0
+                    }
+                ]
+            }
+        }
+    ]
+}

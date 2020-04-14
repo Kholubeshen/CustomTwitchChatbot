@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    
+    <body>
+        
+        <input id="input" type="text" onChange="onChange()" required>
+        <button id="submitButton"  onClick="submitForm()" disabled>Submit</button>
+        <script>
+            function onChange(){
+                let isValid = document.getElementById('input').checkValidity();
+                if(isValid) {
+                    document.getElementById("submitButton").disabled = false;
+                } else {
+                    document.getElementById("submitButton").disabled = true;
+                }
+            }
+    
+            function submitForm() {
+                document.body.append("Hello");
+            }
+        </script>
+    </body>
+</html>
